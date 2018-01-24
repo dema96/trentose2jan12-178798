@@ -2,7 +2,7 @@ var express = require('express');
 var bodyParser = require('body-parser');
 var getArea = require('./area');
 var app = express();
-
+const PORT = process.env.PORT || 3000;
 
 app.use(function (req, res, next) {
         res.header("Access-Control-Allow-Origin", "*");
@@ -36,6 +36,6 @@ router.get('/getArea', function(req, res){
 
 app.use('/', router);
 
-app.listen(5000, function(){
-    console.log("Node is running on port",5000);
+app.listen(PORT, function(){
+    console.log("Node is running on port",PORT);
 });
