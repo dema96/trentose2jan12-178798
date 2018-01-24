@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/dema96/trentose2jan12-178798/issues"
   },
-  "homepage": "https://github.com/dema96/trentose2jan12-178798#readme"
+  "homepage": "https://github.com/dema96/trentose2jan12-178798#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2"
+  }
 }
