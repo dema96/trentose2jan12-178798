@@ -36,6 +36,6 @@ router.get('/getArea', function(req, res){
 
 app.use('/', router);
 
-app.listen(80, function(){
-    console.log("Node is running on port",80);
+app.listen(5000, function(){
+    console.log("Node is running on port",5000);
 });
